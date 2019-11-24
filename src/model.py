@@ -36,7 +36,6 @@ class QNetwork(nn.Module):
             advantage = self.fc3_advantage(x)
             #print('\rvalue:', value, '\tadvantage:', advantage, end='')
             actionValues = value + advantage - advantage.mean()
-            #actionValues = value.expand(-1, advantage.size(1)) + advantage - advantage.mean(1, keepdim=True)#.expand(-1, advantage.size(1))
             return actionValues
         else:
             return self.fc3(x)
