@@ -29,5 +29,5 @@ The task is episodic, and one episode consists of 300 steps. In order to solve t
 
 ### Instructions
 
-- `TrainAgent.ipynb`trains agent and see the behavior of the trained agent.
-- `Report.ipynb` describes detailes of trained models, results and future ideas.
+- [`TrainAgent.ipynb`](./TrainAgent.ipynb)trains agent and see the behavior of the trained agent.
+- [`Report.ipynb`](./Report.ipynb) describes detailes of trained models, results and future ideas.
